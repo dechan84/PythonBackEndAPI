@@ -14,7 +14,7 @@ import payload
 from Utilities.config import getConfig
 from Utilities.resources import *
 #Valid only 30 days
-api_token = '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'
+api_token = ''
 # Use resources.py file to keep optimizing the test
 urladd = getConfig()['API']['endpoint'] + ApiResources.addBook
 myheaders = {"Content-Type" : "application/json"}
